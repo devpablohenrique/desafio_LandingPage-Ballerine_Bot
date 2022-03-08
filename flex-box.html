@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        * {
+            margin: 0px;
+            padding: 0xp;
+            box-sizing: border-box;
+            text-decoration: none;
+        }
+
+        body {
+            background-color: white;
+        }
+
+        main {
+            display: flex;
+            /*flex-direction: row;
+            flex-wrap: nowrap;*/
+            flex-flow: row wrap;
+            justify-content: space-evenly;
+            align-items: center;
+            align-content: flex-end;
+            width: 90%;
+            height: 900px;
+            margin: auto;
+            background-color: red;
+        }
+
+        div {
+            display: flex;
+            border:  2px solid yellow;
+            width: 200px;
+            height: 200px;
+            text-align: center;
+            align-items: center;
+            align-content: center;
+        }
+
+        p {
+            font-size: 3em;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <main>
+        <div>
+            <p>bloco 1</p>
+        </div>
+        <div style="height: 500px;">
+            <p>bloco 2</p>
+        </div>
+        <div style="height: 100px;">
+            <p>bloco 3</p>
+        </div>
+        <div style="height: 300px;">
+            <p>bloco 4</p>
+        </div>
+    </main>
+</body>
+
+</html>
